@@ -1,13 +1,8 @@
-# Python CircleCI 2.0 configuration file
-version: 2
-jobs:
-  build:
-    docker:
-      - image: travis/python:3.8
-
-    working_directory: ~/repo
-
-    steps:
+ language: python
+ python: 
+  -"3.8"
+ 
+ steps:
       # Step 1: obtain repo from GitHub
       - checkout
       # Step 2: create virtual env and install dependencies
