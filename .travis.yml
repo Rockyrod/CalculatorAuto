@@ -1,7 +1,5 @@
  language: python
- python: 
-  -"3.7"
- 
+  
  steps:
       # Step 1: obtain repo from GitHub
       - checkout
